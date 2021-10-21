@@ -1,0 +1,54 @@
+#! /bin/bash
+
+cd ./Desktop
+echo -e "\nHello Noobie\n"
+echo "You can choose from the following 3 options : "
+echo "1 - Set account credentials and renew books (Necessary for first time)"
+echo "2 - Renew books using last saved credentials"
+echo "3 - Nah just close the program"
+read -p "Provide your response ? [1/2/3] : " RESPONSE
+
+
+if [ "$RESPONSE" == "1" ]
+then 
+ echo "Set credentials for renewal process"
+ read -p "Enter Username : " USERNAME
+ read -sp "Enter Password : " PASSWORD
+
+#######################################
+PYTHON_CODE=$(cat << END
+# My python code starts 
+import auto_renewal as AR
+
+req_path =  AR.__path__[0]+'/credentials.py' 
+file_cred = open(req_path,'w') 
+file_cred.write('cred = {"username" : "$USERNAME", "password" : "$PASSWORD"}')
+file_cred.close()	
+
+# My python code ends
+END
+)
+####################################### 
+python -c "$PYTHON_CODE"
+fi
+
+if [ "$RESPONSE" == "2" ] || [ "$RESPONSE" == "1" ]
+then 
+
+PYTHON_CODE=$(cat << END
+# My python code starts 
+
+import auto_renewal as AR
+AR.renew()	
+
+# My python code ends
+END
+)
+####################################### 
+python -c "$PYTHON_CODE"
+
+else 
+ echo -e "Why did you come here ? Huh !!!! \nEnding process...\n" 
+fi
+
+echo "Script ran successfully."
