@@ -29,7 +29,7 @@ file_cred.close()
 END
 )
 ####################################### 
-python -c "$PYTHON_CODE"
+python3 -c "$PYTHON_CODE"
 fi
 
 if [ "$RESPONSE" == "2" ] || [ "$RESPONSE" == "1" ]
@@ -45,7 +45,7 @@ AR.renew()
 END
 )
 ####################################### 
-python -c "$PYTHON_CODE"
+python3 -c "$PYTHON_CODE"
 
 else 
  echo -e "Why did you come here ? Huh !!!! \nEnding process...\n" 

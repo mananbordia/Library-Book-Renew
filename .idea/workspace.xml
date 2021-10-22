@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89be95d2-61be-4fed-a198-d01fe4810dd6" name="Changes" comment="">
+    <list default="true" id="89be95d2-61be-4fed-a198-d01fe4810dd6" name="Changes" comment="Package created">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto_renewal.egg-info/SOURCES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/auto_renewal.egg-info/SOURCES.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto_renewal/renew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manifest.in" beforeDir="false" afterPath="$PROJECT_DIR$/manifest.in" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/book_renew" beforeDir="false" afterPath="$PROJECT_DIR$/bin/book_renew" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +38,14 @@
       <option name="presentableId" value="Default" />
       <updated>1634856265824</updated>
     </task>
+    <task id="LOCAL-00001" summary="Package created">
+      <created>1634861438404</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1634861438404</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -54,5 +58,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Package created" />
+    <option name="LAST_COMMIT_MESSAGE" value="Package created" />
   </component>
 </project>
