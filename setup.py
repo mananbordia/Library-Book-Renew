@@ -11,5 +11,6 @@ setup(name='auto_renewal',
       install_requires=[
           'selenium','webdriver-manager'
       ],
+      scripts=['bin/book_renew'],
       include_package_data=True,
       zip_safe=False)

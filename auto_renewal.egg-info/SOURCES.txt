@@ -3,7 +3,6 @@ setup.py
 auto_renewal/__init__.py
 auto_renewal/credentials.py
 auto_renewal/logUtil.py
-auto_renewal/renew
 auto_renewal/renewal.py
 auto_renewal.egg-info/PKG-INFO
 auto_renewal.egg-info/SOURCES.txt
@@ -11,3 +10,4 @@ auto_renewal.egg-info/dependency_links.txt
 auto_renewal.egg-info/not-zip-safe
 auto_renewal.egg-info/requires.txt
 auto_renewal.egg-info/top_level.txt
+bin/book_renew
